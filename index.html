@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BMI Project</title>
+		<style>
+			body {
+				background-color: rgb(213, 151, 151);
+			}
+			form {
+				width: 22%;
+				margin-left: 35%;
+				margin-top: 225px;
+				padding: 20px;
+				background-color: brown;
+				border: 2px solid white;
+				border-radius: 20px;
+			}
+			form:hover,
+			input:hover,
+			button:hover {
+				background-color: transparent;
+			}
+			input,
+			button {
+				width: 300px;
+				height: 40px;
+				text-indent: 10px;
+				font-size: 22px;
+				border: 2px solid black;
+				border-radius: 10px;
+			}
+			.num1,
+			.num2,
+			.output {
+				margin: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="/" method="post">
+			<div class="num1">
+				<input type="number" name="num1" id="num1" placeholder="Enter First Number" />
+			</div>
+			<div class="num2">
+				<input type="number" name="num2" id="num2" placeholder="Enter Second Number" />
+			</div>
+			<div class="output">
+				<button type="submit" name="submit">Calculate Addition</button>
+			</div>
+		</form>
+	</body>
+</html>
